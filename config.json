@@ -1,5 +1,5 @@
 {
-  "port": "3050",
+  "port": "3060",
   "name": "gulp-browerify-angular-bootstrap",
   "base": "/",
   "gulp": {
@@ -8,7 +8,7 @@
       "dist": "dist"
     },
     "browserSync": {
-      "port": 5050
+      "port": 5060
     }
   }
 }

@@ -20,6 +20,7 @@
     "browserify-shim": "^3.8.12",
     "del": "^2.2.2",
     "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
     "gulp-cache": "^0.4.5",
     "gulp-clean-css": "^2.0.13",
     "gulp-concat": "^2.6.0",
@@ -53,10 +54,24 @@
     ]
   },
   "browserify-shim": {
-    "jquery": { "exports": "$" },
-    "bootstrap": { "depends": [ "jquery" ] },
+    "jquery": {
+      "exports": "$"
+    },
+    "bootstrap": {
+      "depends": [
+        "jquery"
+      ]
+    },
     "angular": "angular",
-    "ui-router": { "depends": [ "angular" ] },
-    "ui-bootstrap": { "depends": [ "angular"] }
+    "ui-router": {
+      "depends": [
+        "angular"
+      ]
+    },
+    "ui-bootstrap": {
+      "depends": [
+        "angular"
+      ]
+    }
   }
 }
